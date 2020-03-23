@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvA1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:id="@+id/tvB1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:id="@+id/tvC1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvA2"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvB2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tvC2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etA3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:hint="sum"/>
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <EditText
+                    android:id="@+id/etB3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:hint="sum"/>
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <EditText
+                    android:id="@+id/etC3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:hint="sum"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivA4"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    app:srcCompat="?attr/actionBarItemBackground" />
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <ImageView
+                    android:id="@+id/ivB4"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    app:srcCompat="?attr/actionBarItemBackground" />
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <ImageView
+                    android:id="@+id/ivC4"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    app:srcCompat="?attr/actionBarItemBackground" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnA5"
+                    android:onClick="check_one"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <Button
+                    android:id="@+id/btnB5"
+                    android:onClick="check_two"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <Button
+                    android:id="@+id/btnC5"
+                    android:onClick="check_three"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/btnNew"
+                android:onClick="new_game"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="15"
+                android:text="new" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="10" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
